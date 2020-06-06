@@ -6,10 +6,13 @@
 }
 
 section{
-    background-image: linear-gradient(lightgreen, lightsalmon);  
+    background-image: linear-gradient(lightgreen, lightsalmon);
     height: 100vh;
     width: 100%;
     padding: 0.1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario{
@@ -18,29 +21,30 @@ section{
     background-color: #fff;
     height: 500px;
     width: 25%;
-    margin: 70px auto;
     border-radius: 5%;
 }
 
 .titulo{
     font-size: 30px;
     margin-top: 30px;
+    color:#fa8072;
 }
 
 input{
     display: inline-block;
     width: 85%;
     margin-top: 45px;
-    padding: 10px 0;
+    padding: 10px 5px;
     border: none;
-    border-bottom: 1px solid salmon;
+    border-bottom: 1px solid #fa8072;
     font-size: 20px;
-    color: teal;
+    color: #078a8a;
+    outline: none;
 }
 
 .enviar{
     text-decoration: none;
-    background-image: linear-gradient(lightgreen, lightsalmon);
+    background-image: linear-gradient(#ffa07a, #90ee90);
     width: 200px;
     border-radius: 10px;
     font-size: 25px;
@@ -48,10 +52,15 @@ input{
     margin-top: 70px;
     color: #000;
     font-size: 25px;
+    cursor: pointer
 }
 
-.enviar:hover{
-   cursor: pointer
+input:focus{
+    outline: none;
+}
+
+input:invalid{
+    color: #000;
 }
 
 @media screen and (max-width:800px){
