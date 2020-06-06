@@ -63,21 +63,34 @@ input:invalid{
     color: #000;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .formulario{
         width: 45%;
     }
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:700px){
     .formulario{
-        width: 60%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .formulario{
+        width: 70%;
+    }
+    .enviar{
+        width: 150px;
     }
 }
 
 @media screen and (max-width:350px){
     .formulario{
         width: 90%;
+    }
+
+    .enviar{
+        width: 150px;
     }
 }
 
