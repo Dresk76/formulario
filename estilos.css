@@ -65,19 +65,22 @@ input:invalid{
 
 @media screen and (max-width:900px){
     .formulario{
-        width: 45%;
+        width: 35%;
     }
 }
 
 @media screen and (max-width:700px){
     .formulario{
-        width: 55%;
+        width: 50%;
+    }
+    .enviar{
+        width: 150px;
     }
 }
 
 @media screen and (max-width:500px){
     .formulario{
-        width: 70%;
+        width: 80%;
     }
     .enviar{
         width: 150px;
